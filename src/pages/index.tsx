@@ -58,13 +58,13 @@ export default function Home() {
 		}, 5000);
 	};
 
-	// useEffect(() => {
-	// 	const url = window.location.href;
+	useEffect(() => {
+		const url = window.location.href;
 
-	// 	if (!url.includes("mineslucrativo") && !url.includes("localhost")) {
-	// 		window.location.href = "https://mineslucrativo.com";
-	// 	}
-	// }, []);
+		if (!url.includes("mineslucrativo") && !url.includes("localhost")) {
+			window.location.href = "https://mineslucrativo.com";
+		}
+	}, []);
 
 	if (isLoading)
 		return (
@@ -104,10 +104,10 @@ export default function Home() {
 								onClick={onCalculateProbabilities}
 							/>
 							<Link
-								href="https://wlf12bet.adsrv.eacdn.com/C.ashx?btag=a_4620b_87c_&affid=3280&siteid=4620&adid=87&c="
+								href="https://go.aff.7k-partners.com/stlmfovq"
 								target="_blank"
 							>
-								<ButtonPrimary title="Entrar na F12.bet" className="buttons-card-tips" />
+								<ButtonPrimary title="Entrar na bet.7k" className="buttons-card-tips" />
 							</Link>
 						</div>
 					</ContainerCardTipsAndButtons>
