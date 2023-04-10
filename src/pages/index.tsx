@@ -58,13 +58,13 @@ export default function Home() {
 		}, 5000);
 	};
 
-	useEffect(() => {
-		const url = window.location.href;
+	// useEffect(() => {
+	// 	const url = window.location.href;
 
-		if (!url.includes("mineslucrativo") && !url.includes("localhost")) {
-			window.location.href = "https://mineslucrativo.com";
-		}
-	}, []);
+	// 	if (!url.includes("mineslucrativo") && !url.includes("localhost")) {
+	// 		window.location.href = "https://mineslucrativo.com";
+	// 	}
+	// }, []);
 
 	if (isLoading)
 		return (
@@ -94,8 +94,8 @@ export default function Home() {
 									state === "calculating"
 										? "Calculando..."
 										: state === "delay"
-										? "Aguarde..."
-										: "Calcular probabilidades"
+											? "Aguarde..."
+											: "Calcular probabilidades"
 								}
 								disabled={state !== "ready"}
 								buttonType="SECONDARY"
