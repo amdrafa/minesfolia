@@ -36,6 +36,7 @@ export default function App({ Component, pageProps }: AppProps) {
 				<meta property="og:image:type" content="image/png" />
 				<meta property="og:image:width" content="512" />
 				<meta property="og:image:height" content="512" />
+				
 				<meta property="og:site_name" content="Mines Lucrativo" />
 
 				<meta property="twitter:card" content="summary_large_image" />
