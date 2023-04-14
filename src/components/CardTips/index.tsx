@@ -39,7 +39,7 @@ export function CardTips() {
 	return (
 		<ContainerCardTips>
 			<div className="logo-and-name">
-				<img src={"/assets/mstile-150x150.png"} alt="Logo mines lucrativo" />
+				<img src={"/assets/android-chrome-192x192.png"} alt="Logo mines lucrativo" />
 				<div className="name">
 					<h5>Mines lucrativo</h5>
 					<p>Assistente bot</p>
