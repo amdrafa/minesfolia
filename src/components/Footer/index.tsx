@@ -9,7 +9,7 @@ export function Footer() {
     <ContainerFooter>
       <ContainerFooterLimit>
         <div className="logo-and-socials">
-          <img src={"/assets/og-image.png"} alt="Logo Mines Lucrativo" />
+          <img src={"/assets/android-chrome-192x192.png"} alt="Logo Mines Lucrativo" />
           <FaFacebook size={35} className="icon" style={{marginLeft: "20px"}} />
           <BsYoutube size={35} className="icon" />
           <AiOutlineInstagram size={35} className="icon" />

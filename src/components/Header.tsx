@@ -31,7 +31,7 @@ export function Header() {
 		<ContainerHeader>
 			<Link href="/">
 				<div className="logo">
-					<img src={"/assets/og-image.png"} alt="Logo Mines Lucrativo" />
+					<img src={"/assets/android-chrome-192x192.png"} alt="Logo Mines Lucrativo" />
 				</div>
 			</Link>
 			<Link href="https://wlf12bet.adsrv.eacdn.com/C.ashx?btag=a_4620b_87c_&affid=3280&siteid=4620&adid=87&c=" target="_blank">
